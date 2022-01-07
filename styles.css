@@ -1,0 +1,39 @@
+body{
+    background: DarkGrey;
+}
+.default-button{
+    cursor: pointer;
+}
+.button-box{
+    background: #fff;
+    width: 240px;
+    position: relative;
+    margin: 35px auto;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 40px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    outline: none;
+}
+
+.toggle-btn{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+#btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: chocolate;
+    width: 130px;
+    height: 100%;
+    border-radius: 30px;
+    transition: .5s;
+}
